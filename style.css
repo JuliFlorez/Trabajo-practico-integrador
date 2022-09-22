@@ -1,0 +1,204 @@
+body {
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(49, 49, 49);
+}
+
+.titulo {
+    display: flex;
+    margin-left: 5%;
+}
+
+.titulo p {
+    margin-top: 2%;
+    color: white;
+}
+
+.logo {
+    width: 125px;
+    height: 75px;
+}
+
+.header-nav{
+    margin-left: 20%;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav ul li {
+    list-style: none;
+    margin-left: 1%;
+    color: white;
+}
+
+.verde{
+    color: green;
+}
+
+main{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: end;
+    background: rgba(0, 0, 0, 0.6);
+    background-image: url(img/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken ;
+    color: white;
+}
+main p, main h1{
+    margin-left: 60%;
+    margin-right: 10%;
+}
+.botones{
+    margin-right: 10%;
+}
+.boton1{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0);
+    border-radius: 4px;
+    border: solid white 1px;
+}
+.boton2{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: rgb(44, 165, 44);
+    border-radius: 4px;
+    border: none;
+}
+section h2{
+    text-align: center;
+}
+.cajas{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cajas div{
+    margin-left: 5%;
+}
+.steve{
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/steve.jpg);
+    background-repeat: no-repeat;
+    background-size: 101% 57%;
+}
+.tecnologias{
+    display: flex;
+}
+.tecnologias p{
+    font-size: 10px;
+    margin-right: 3%;
+    margin-bottom: 0%;
+}
+.steve h3{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.texto-cajas{
+    margin: 10px;
+}
+.bill{
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/bill.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 57%;
+}
+.bill h3{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.ada{
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/ada.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 57%;
+}
+.ada h3{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.octubre{
+    background-color: gray;
+    color: white;
+    padding-bottom: 20%;
+    padding-top: 1%;
+    margin-top: 1%;
+    background-image:url(img/honolulu.jpg);
+    background-size: 49% 100%;
+    background-repeat: no-repeat;
+}
+.octubre h3{
+    margin-left: 50%;
+    font-size: 25px;
+}
+.octubre p{
+    margin-left: 50%;
+}
+.octubre button{
+    margin-left: 50%;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0);
+    border-radius: 4px;
+    border: solid white 1px;
+}
+.formulario h3,.formulario p{
+    text-align: center;
+}
+form{
+    margin-left: 25%;
+}
+.nombre{
+    padding-right: 12.5%;
+    padding-bottom: 0.5%;
+}
+.apellido{
+    padding-right: 12.5%;
+    margin-left: 7%;
+    padding-bottom: 0.5%;
+}
+.comentario{
+    display:flex;
+    margin-top: 1%;
+    padding-right: 50%;
+    padding-bottom: 10%;
+}
+.boton-formulario{
+    margin-top: 1%;
+    padding-left: 31.6%;
+    padding-right: 31.6%;
+    padding-bottom: 1%;
+    background-color: rgb(109, 230, 109);
+    border: 1px solid rgb(109, 230, 109);
+    border-radius: 2px;
+}
+
+.footer-nav{
+    padding: 1%;
+    margin-top: 1%;
+    background-color: rgb(36, 74, 131);
+    color: white;
+}
+.footer-nav ul{
+    display: flex;
+}
+.footer-nav ul li{
+    list-style: none;
+    margin-left: 5%;
+}
