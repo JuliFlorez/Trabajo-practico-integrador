@@ -15,6 +15,7 @@ header {
 .titulo p {
     margin-top: 2%;
     color: white;
+    width: 10%;
 }
 
 .logo {
@@ -23,21 +24,23 @@ header {
 }
 
 .header-nav{
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 90%;
 }
 
 .header-nav ul {
     display: flex;
+    margin-top: 10px;
+}
+.header-nav ul .verde{
+    color: green;
 }
 
 .header-nav ul li {
     list-style: none;
-    margin-left: 1%;
+    margin-left: 5%;
     color: white;
-}
-
-.verde{
-    color: green;
 }
 
 main{
@@ -97,9 +100,41 @@ section h2{
     display: flex;
 }
 .tecnologias p{
-    font-size: 10px;
+    font-size: 12.5px;
+    margin-top: 25%;
     margin-right: 3%;
     margin-bottom: 0%;
+}
+.JavaScript{
+    font-weight: bolder;
+    background-color: rgb(245, 233, 65);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.React{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(34, 155, 185);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.Negocios{
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.Startups{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(197, 49, 49);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 .steve h3{
     margin-top: 0%;
@@ -176,14 +211,17 @@ form{
 .comentario{
     display:flex;
     margin-top: 1%;
-    padding-right: 50%;
+    width: 69.5%;
+    height: max-content;
     padding-bottom: 10%;
 }
+
 .boton-formulario{
     margin-top: 1%;
-    padding-left: 31.6%;
-    padding-right: 31.6%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 32%;
+    padding-right: 33%;
+    padding-bottom: 0.5%;
     background-color: rgb(109, 230, 109);
     border: 1px solid rgb(109, 230, 109);
     border-radius: 2px;
