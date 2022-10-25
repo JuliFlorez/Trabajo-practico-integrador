@@ -16,8 +16,11 @@ header {
     width: 10%;
     margin-top: 8%;
 }
-.header-nav ul li {
-    list-style: none;
+.header-nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+.header-nav ul li a:hover{
     color: white;
 }
 .header-nav ul .verde {
@@ -244,8 +247,46 @@ form {
     list-style: none;
     margin-left: 5%;
 }
-
-
+.navbar-brand{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.cards{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.card{
+    margin-left: 1%;
+    border: solid rgb(233, 233, 26);
+}
+.titulo-venta{
+    text-align: center;
+}
+.formulario-ticket{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.resultado p{
+    padding: 3%;
+    background-color: rgb(164, 201, 255);
+    border-radius: 5px;
+}
+.botones-ticket button{
+    background-color: rgb(109, 230, 109);
+    border: 1px solid rgb(109, 230, 109);
+    border-radius: 5px;
+    padding-left: 20.25%;
+    padding-right: 20.25%;
+}
+.botones-ticket button:hover{
+    color: white;
+}
+.resultado{
+    padding: 1%;
+    color: rgb(54, 82, 173);
+}
 @media (min-width: 700px) {
     body {
         margin: 0%;
